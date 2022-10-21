@@ -1,0 +1,224 @@
+body {
+    background: white;
+    font-family: 'News Cycle', sans-serif;
+    letter-spacing: 0.25em;
+}
+
+
+
+/* #f6dfd7 #92C8DF #F2C2D7  #F4C3B2
+*/
+
+
+#mainNavbar {
+    font-size: 1.35rem;
+    font-weight: 200;
+
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: white;
+
+    /*padding-right: 5rem;*/
+    /* background-color: #F58DB9;
+
+    #F872A8   #F2C2D7 */
+}
+
+#mainNavbar .navbar-toggler-icon {
+    color: #a4a195;
+}
+
+#mainNavbar .nav-link {
+    color: #a4a195;
+    padding-left: 2rem;
+    /*padding-top: 2rem;*/
+    padding-right: 1rem;
+    white-space: nowrap;
+}
+
+/* #d8d3c2  9fa6ab  voor scrolled: #E9E3E7*/
+#mainNavbar .nav-link:hover {
+    color: #F06E88;
+    transition: 450ms;
+}
+
+#nav-links .selected {
+    color: #F06E88;
+}
+
+/*mediumvioletred*/
+
+#mainNavbar .navbar-brand {
+    color: #F06E88;
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+    letter-spacing: 0.30em;
+
+}
+
+/*
+.navWidth {
+    width: 33%;
+}*/
+
+@media (max-width: 1780px) {
+    .navLeft {
+        font-size: 1.2rem;
+        letter-spacing: 0.1em;
+
+    }
+
+    #mainNavbar .nav-link {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 1420px) {
+    .navLeft {
+        font-size: 0.9rem;
+        letter-spacing: 0.1em;
+
+    }
+
+    #mainNavbar .nav-link {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #mainNavbar .navbar-brand {
+        font-size: 2.5rem;
+        letter-spacing: 0.30em;
+    }
+
+    #aboutMe h1 {
+        font-size: 2.5rem;
+        letter-spacing: 0.2em;
+    }
+
+    #projects h1 {
+        font-size: 2.5rem;
+        letter-spacing: 0.2em;
+    }
+
+    #contact h1 {
+        font-size: 2.5rem;
+        letter-spacing: 0.2em;
+    }
+
+    #aboutMe p {
+        font-size: 1rem;
+        font-family: 'News Cycle', sans-serif;
+        letter-spacing: 0.2em;
+    }
+
+    .startImage {
+        width: 375px;
+    }
+
+}
+
+@media (max-width: 450px) {
+    #mainNavbar .navbar-brand {
+        font-size: 2rem;
+        letter-spacing: 0.30em;
+    }
+}
+
+/*
+
+.navbar.scrolled {
+    background: white;
+   
+    transition: background 500ms;
+}
+*/
+
+
+
+/*paleovioletred*/
+/*
+E9E3E7
+.subtitle {
+    font-size: 2rem;
+    letter-spacing: 0.6em;
+    color: #54595C
+}
+*/
+
+/*
+#56609A mediumvioletred*/
+h1,
+h2 {
+    font-weight: 500;
+    color: #F06E88;
+    line-height: 1.2em;
+    font-family: 'Satisfy', cursive;
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 3.5rem;
+    letter-spacing: 0.2em;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'News Cycle', sans-serif;
+    letter-spacing: 0.3em;
+}
+
+
+
+
+p {
+    font-family: 'News Cycle', sans-serif;
+    letter-spacing: 0.1em;
+    color: #54595C;
+}
+
+/*#E9E3E7*/
+
+a.lead {
+    color: #54595C;
+    text-decoration: none;
+}
+
+a.lead:hover {
+    color: #F06E88;
+}
+
+#aboutMe {
+    scroll-margin-top: 2em;
+}
+
+#projects {
+    scroll-margin-top: 4em;
+}
+
+/*
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+*/
+
+/*
+.banner {
+    height: 20px;
+    background: url(Img/homepagina_bg.png);
+}
+
+
+.bannerEind {
+    height: 50px;
+    background: url(Img/homepagina_bg.png);
+}
+*/
